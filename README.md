@@ -1,5 +1,7 @@
 # smartcare-ai-coursework
 
+'''
+
 ## Project Structure
 
 smartcare-ai-coursework/
@@ -23,6 +25,7 @@ smartcare-ai-coursework/
 ├── literature_review.md # Task 1
 ├── data_dictionary_notes.md
 └── deliverables_tracker.md
+'''
 
 ## Setup
 
