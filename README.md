@@ -1,10 +1,8 @@
 # smartcare-ai-coursework
 
-'''
-
 ## Project Structure
 
-smartcare-ai-coursework/
+'''smartcare-ai-coursework/
 ├── data/
 │ ├── raw/ # original CSVs, never edit these directly
 │ └── processed/ # cleaned/engineered datasets
@@ -24,8 +22,7 @@ smartcare-ai-coursework/
 └── docs/
 ├── literature_review.md # Task 1
 ├── data_dictionary_notes.md
-└── deliverables_tracker.md
-'''
+└── deliverables_tracker.md'''
 
 ## Setup
 
