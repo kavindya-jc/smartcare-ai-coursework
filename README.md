@@ -31,7 +31,7 @@ smartcare-ai-coursework/
 1. Clone the repo and `cd` into it
 2. Create a virtual environment: `python -m venv venv`
 3. Activate it: `venv\Scripts\activate` (Windows)
-4. Install dependencies: `pip install pandas numpy matplotlib seaborn scikit-learn jupyter ipykernel`
+4. Install dependencies: `pip install -r requirements.txt`
 5. Open notebooks in VS Code and select the `venv` kernel
 
 ## Branch Workflow
