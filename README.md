@@ -8,8 +8,8 @@ smartcare-ai-coursework/
 │   ├── raw/                    # original CSVs, never edited
 │   └── processed/              # cleaned data saved after Task 3
 ├── notebooks/
-│   ├── 01_dataset_understanding.ipynb
-│   ├── 02_preprocessing_feature_engineering.ipynb
+│   ├── 01_dataset_understanding.ipynb               # Task 2
+│   ├── 02_preprocessing_feature_engineering.ipynb   # Task 3
 │   ├── 03_eda.ipynb            # Task 4
 │   ├── 04_modeling.ipynb
 │   ├── 05_evaluation.ipynb     # Task 6
