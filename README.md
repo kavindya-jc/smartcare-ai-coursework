@@ -21,7 +21,6 @@ smartcare-ai-coursework/
 ├── models/                     # trained model files (Task 5)
 ├── prototype/                  # Streamlit/Flask app (Task 8)
 ├── docs/
-│   ├── data_dictionary_notes.md   # Task 2
 │   ├── literature_review.md       # Task 1
 └── README.md
 
