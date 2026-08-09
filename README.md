@@ -5,25 +5,26 @@
 ```
 smartcare-ai-coursework/
 ├── data/
-│ ├── raw/ # original CSVs, never edit these directly
-│ └── processed/ # cleaned/engineered datasets
+│   ├── raw/                    # original CSVs, never edited
+│   └── processed/              # cleaned data saved after Task 3
 ├── notebooks/
-│ ├── 01_dataset_understanding.ipynb
-│ ├── 02_preprocessing_feature_engineering.ipynb
-│ ├── 03_eda.ipynb
-│ ├── 04_modeling.ipynb
-│ ├── 05_evaluation.ipynb
-│ └── 06_explainability.ipynb
-├── src/ # reusable Python functions
+│   ├── 01_dataset_understanding.ipynb
+│   ├── 02_preprocessing_feature_engineering.ipynb
+│   ├── 03_eda.ipynb            # Task 4
+│   ├── 04_modeling.ipynb
+│   ├── 05_evaluation.ipynb     # Task 6
+│   └── 06_explainability.ipynb # Task 7
+├── src/                        # reusable Python functions (later)
 ├── reports/
-│ ├── figures/ # saved charts
-│ └── technical_report.docx # Task 9
-├── models/ # trained .pkl / .joblib files
-├── prototype/ # Streamlit or Flask app, Task 8
-└── docs/
-├── literature_review.md # Task 1
-├── data_dictionary_notes.md
-└── deliverables_tracker.md
+│   ├── figures/                # saved charts
+│   └── technical_report.docx   # Task 9
+├── models/                     # trained model files (Task 5)
+├── prototype/                  # Streamlit/Flask app (Task 8)
+├── docs/
+│   ├── data_dictionary_notes.md   # Task 2
+│   ├── literature_review.md       # Task 1
+└── README.md
+
 ```
 
 ## Setup
