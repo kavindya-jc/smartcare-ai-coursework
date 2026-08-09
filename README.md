@@ -17,7 +17,7 @@ smartcare-ai-coursework/
 ├── src/                        # reusable Python functions (later)
 ├── reports/
 │   ├── figures/                # saved charts
-│   └── technical_report.docx   # Task 9
+│   └── technical_report(PDF)   # Task 9
 ├── models/                     # trained model files (Task 5)
 ├── prototype/                  # Streamlit/Flask app (Task 8)
 ├── docs/
@@ -34,9 +34,3 @@ smartcare-ai-coursework/
 3. Activate it: `venv\Scripts\activate` (Windows)
 4. Install dependencies: `pip install -r requirements.txt`
 5. Open notebooks in VS Code and select the `venv` kernel
-
-## Branch Workflow
-
-Work on a feature branch, not directly on `main`:
-git checkout -b yourname/task-name
-Then open a Pull Request to merge into main when your part is ready.
