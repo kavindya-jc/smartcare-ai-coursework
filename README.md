@@ -1,5 +1,7 @@
 # smartcare-ai-coursework
 
+🔗 **Live Demo:** [smartcare-ai-coursework.streamlit.app](https://smartcare-ai-coursework.streamlit.app/)
+
 ## Project Structure
 
 ```
