@@ -42,7 +42,7 @@ smartcare-ai-coursework/
 2. Run notebooks in order: 01 → 02 → 03 → 04 → 05 → 06. Each notebook
    loads its input from data/raw/ or data/processed/ and saves its output
    there for the next notebook to use.
-3. The Streamlit prototype requires logistic_regression.pkl, scaler.pkl, and preprocessing_artifacts.pkl from models/. The first two are produced by notebook 04; preprocessing_artifacts.pkl (containing IQR outlier bounds and dropdown category options for the UI) must also be present in models/ — confirm with the prototype's author whether this is committed to the repo or needs a separate generation step.
+3. The Streamlit prototype requires logistic_regression.pkl, scaler.pkl, and preprocessing_artifacts.pkl from models/. The first two are produced by notebook 04. preprocessing_artifacts.pkl (containing IQR outlier bounds and dropdown category options for the UI) is generated separately during prototype development and is committed to the repo, so no extra generation step is needed to run the prototype locally.
 4. To run the prototype locally: cd prototype && streamlit run app.py
 5. Live deployed version: (https://smartcare-ai-coursework.streamlit.app/)
 
