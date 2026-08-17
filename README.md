@@ -35,3 +35,20 @@ smartcare-ai-coursework/
 3. Activate it: `venv\Scripts\activate` (Windows)
 4. Install dependencies: `pip install -r requirements.txt`
 5. Open notebooks in VS Code and select the `venv` kernel
+
+## Reproducing This Project
+
+1. Clone the repo and set up the environment (see Setup above).
+2. Run notebooks in order: 01 → 02 → 03 → 04 → 05 → 06. Each notebook
+   loads its input from data/raw/ or data/processed/ and saves its output
+   there for the next notebook to use.
+3. Trained models and preprocessing artifacts are saved in models/
+   (logistic_regression.pkl, scaler.pkl, preprocessing_artifacts.pkl,
+   train_test_split.pkl) after running notebook 04.
+4. To run the prototype locally: cd prototype && streamlit run app.py
+5. Live deployed version: (https://smartcare-ai-coursework.streamlit.app/)
+
+## Dependencies
+
+See requirements.txt for the full environment, or prototype/requirements.txt
+for the minimal set needed just to run the Streamlit app.
